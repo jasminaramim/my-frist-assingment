@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 body{
     font-family: "Wittgenstein", serif;
 }
+
 /*banner section style here*/
+.section-container{
+    max-width:  1140px;
+    margin: 0 auto;
+
+}
 
 .banner-conatiner{
  width: auto;
@@ -19,9 +25,10 @@ body{
  background-position: center;
  
  background-size: cover;
+ 
 
 }
-.banner-content {
+.banner-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,14 +38,15 @@ body{
 
 
 }
-.font{
-    font-size: 50px;
+.design1 ,.design2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.web-section{
-    
-width: 1140px;
-height: 1393px;
-border: 2px solid red;
-margin: 0 auto;
-margin-top:90px ;
+
+.design1{
+    border-radius: 16px;
+
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+padding: 50px;
 }
